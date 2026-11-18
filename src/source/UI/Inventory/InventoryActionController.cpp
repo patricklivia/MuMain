@@ -25,6 +25,7 @@
 #include "I18N/All.h"
 #include "GameLogic/Items/ShopRestrictions.h"
 #include "GameLogic/Items/TradeRestrictions.h"
+#include "GameLogic/Items/EminenceJewels.h"
 
 namespace mu::ui::window
 {
@@ -527,7 +528,9 @@ bool CInventoryActionController::ApplyJewels(CInventoryCtrl* targetControl, CPic
                               GameLogic::Items::IsRefineStone(pPickItem) || pPickItem->Type == ITEM_POTION + 160 ||
                               pPickItem->Type == ITEM_POTION + 161;
 
-    if (!bIsJewelType)
+    const bool bIsEminenceJewel = GameLogic::Items::Eminence::IsEnhancementJewel(pPickItem);
+
+    if (!bIsJewelType && !bIsEminenceJewel)
     {
         return false;
     }
@@ -536,6 +539,19 @@ bool CInventoryActionController::ApplyJewels(CInventoryCtrl* targetControl, CPic
     if (!pItem)
     {
         return false;
+    }
+
+    // Eminence: the server rolls the chance (70% free, 100% VIP) and keeps the item on a failure.
+    if (bIsEminenceJewel)
+    {
+        if (!GameLogic::Items::Eminence::CanApplyEnhancementJewel(pPickItem, pItem))
+        {
+            return false;
+        }
+        const int targetIndex = targetControl->GetIndexByItem(pItem);
+        SendRequestUse(iSourceIndex, targetIndex);
+        PlayBuffer(SOUND_GET_ITEM01);
+        return true;
     }
 
     const int iType = pItem->Type;

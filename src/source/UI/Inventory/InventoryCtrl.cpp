@@ -17,6 +17,7 @@
 #include "GameLogic/Items/ItemCategories.h"
 #include "UI/RmlBridge/RmlTooltip.h"
 #include "UI/Tooltip/LegacyTextListTooltip.h"
+#include "GameLogic/Items/EminenceJewels.h"
 
 #include <RmlUi/Core/ElementDocument.h>
 
@@ -1068,6 +1069,10 @@ bool mu::ui::window::CInventoryCtrl::DropActsOn(ITEM* pPickItem, ITEM* pTargetIt
     {
         if (pTargetItem->Jewel_Of_Harmony_Option != 0)
             bSuccess = true;
+    }
+    else if (GameLogic::Items::Eminence::IsEnhancementJewel(pPickItem))
+    {
+        bSuccess = GameLogic::Items::Eminence::CanApplyEnhancementJewel(pPickItem, pTargetItem);
     }
 
     if (pPickItem->Type == ITEM_JEWEL_OF_BLESS && iType == ITEM_HORN_OF_FENRIR && iDurability != 255)

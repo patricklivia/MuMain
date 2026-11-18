@@ -5514,6 +5514,548 @@
       "width": 1,
       "height": 1,
       "repairable": false
+    },
+    {
+      "number": 200,
+      "name": {
+        "en": "Jewel of Level",
+        "pt": "Jewel of Level"
+      },
+      "tags": [
+        "jewel",
+        "valuable"
+      ],
+      "description": [
+        {
+          "text": {
+            "en": "Enhancement Jewel",
+            "pt": "Jóia de Aprimoramento"
+          },
+          "color": "white"
+        },
+        {
+          "text": {
+            "en": "Adds a level to items from +0 to +13",
+            "pt": "Adiciona Level em Items de +0 a +13"
+          }
+        },
+        {
+          "text": {
+            "en": "1 Jewel = 1 Level",
+            "pt": "1 Jóia = 1 Level"
+          }
+        },
+        {
+          "text": {
+            "en": "Success Rate",
+            "pt": "Taxa de Sucesso"
+          },
+          "color": "red"
+        },
+        {
+          "text": {
+            "en": "Free: 70%",
+            "pt": "Free: 70%"
+          },
+          "color": "green"
+        },
+        {
+          "text": {
+            "en": "VIP Gold: 100%",
+            "pt": "VIP Gold: 100%"
+          },
+          "color": "green"
+        },
+        {
+          "text": {
+            "en": "Can be used on",
+            "pt": "Pode ser utilizada em"
+          },
+          "color": "violet"
+        },
+        {
+          "text": {
+            "en": "Shields, Weapons, Sets, Rings, Pendants, Wings and Capes",
+            "pt": "Shields, Armas, Sets, Rings, Pendants, Wings e Capes"
+          },
+          "color": "violet"
+        },
+        {
+          "text": {
+            "en": "On failure the item is never lost",
+            "pt": "Caso de falha não há risco da perda do Item"
+          },
+          "color": "green"
+        },
+        {
+          "text": "@numberOfItems",
+          "when": [
+            "durability"
+          ]
+        }
+      ],
+      "nameLines": [
+        {
+          "color": "red"
+        }
+      ],
+      "groundLabels": [
+        {
+          "style": "jewel"
+        }
+      ],
+      "width": 1,
+      "height": 1,
+      "level": 0,
+      "sellValue": 0,
+      "repairable": false
+    },
+    {
+      "number": 201,
+      "name": {
+        "en": "Jewel of Additional",
+        "pt": "Jewel of Adicional"
+      },
+      "tags": [
+        "jewel",
+        "valuable"
+      ],
+      "description": [
+        {
+          "text": {
+            "en": "Enhancement Jewel",
+            "pt": "Jóia de Aprimoramento"
+          },
+          "color": "white"
+        },
+        {
+          "text": {
+            "en": "Adds the additional option to items (+28)",
+            "pt": "Adiciona Life em Items (Dano adicional +28)"
+          }
+        },
+        {
+          "text": {
+            "en": "Success Rate",
+            "pt": "Taxa de Sucesso"
+          },
+          "color": "red"
+        },
+        {
+          "text": {
+            "en": "Free: 70%",
+            "pt": "Free: 70%"
+          },
+          "color": "green"
+        },
+        {
+          "text": {
+            "en": "VIP Gold: 100%",
+            "pt": "VIP Gold: 100%"
+          },
+          "color": "green"
+        },
+        {
+          "text": {
+            "en": "Can be used on",
+            "pt": "Pode ser utilizada em"
+          },
+          "color": "violet"
+        },
+        {
+          "text": {
+            "en": "Shields, Weapons, Sets, Rings, Pendants, Wings and Capes",
+            "pt": "Shields, Armas, Sets, Rings, Pendants, Wings e Capes"
+          },
+          "color": "violet"
+        },
+        {
+          "text": {
+            "en": "On failure the item is never lost",
+            "pt": "Caso de falha não há risco da perda do Item"
+          },
+          "color": "green"
+        },
+        {
+          "text": "@numberOfItems",
+          "when": [
+            "durability"
+          ]
+        }
+      ],
+      "nameLines": [
+        {
+          "color": "red"
+        }
+      ],
+      "groundLabels": [
+        {
+          "style": "jewel"
+        }
+      ],
+      "width": 1,
+      "height": 1,
+      "level": 0,
+      "sellValue": 0,
+      "repairable": false
+    },
+    {
+      "number": 202,
+      "name": {
+        "en": "Jewel of Excellent",
+        "pt": "Jewel of Excelent"
+      },
+      "tags": [
+        "jewel",
+        "valuable"
+      ],
+      "description": [
+        {
+          "text": {
+            "en": "Enhancement Jewel",
+            "pt": "Jóia de Aprimoramento"
+          },
+          "color": "white"
+        },
+        {
+          "text": {
+            "en": "Adds an excellent option to items",
+            "pt": "Adiciona Option Excelente em Items"
+          }
+        },
+        {
+          "text": {
+            "en": "Success Rate",
+            "pt": "Taxa de Sucesso"
+          },
+          "color": "red"
+        },
+        {
+          "text": {
+            "en": "Free: 70%",
+            "pt": "Free: 70%"
+          },
+          "color": "green"
+        },
+        {
+          "text": {
+            "en": "VIP Gold: 100%",
+            "pt": "VIP Gold: 100%"
+          },
+          "color": "green"
+        },
+        {
+          "text": {
+            "en": "Can be used on",
+            "pt": "Pode ser utilizada em"
+          },
+          "color": "violet"
+        },
+        {
+          "text": {
+            "en": "Shields, Weapons, Sets, Rings and Pendants",
+            "pt": "Shields, Armas, Sets, Rings e Pendants"
+          },
+          "color": "violet"
+        },
+        {
+          "text": {
+            "en": "On failure the item is never lost",
+            "pt": "Caso de falha não há risco da perda do Item"
+          },
+          "color": "green"
+        },
+        {
+          "text": "@numberOfItems",
+          "when": [
+            "durability"
+          ]
+        }
+      ],
+      "nameLines": [
+        {
+          "color": "red"
+        }
+      ],
+      "groundLabels": [
+        {
+          "style": "jewel"
+        }
+      ],
+      "width": 1,
+      "height": 1,
+      "level": 0,
+      "sellValue": 0,
+      "repairable": false
+    },
+    {
+      "number": 203,
+      "name": {
+        "en": "Jewel of Skill",
+        "pt": "Jewel of Skill"
+      },
+      "tags": [
+        "jewel",
+        "valuable"
+      ],
+      "description": [
+        {
+          "text": {
+            "en": "Enhancement Jewel",
+            "pt": "Jóia de Aprimoramento"
+          },
+          "color": "white"
+        },
+        {
+          "text": {
+            "en": "Adds the skill to weapons and shields",
+            "pt": "Adiciona Skills em Armas e Shields"
+          }
+        },
+        {
+          "text": {
+            "en": "Success Rate",
+            "pt": "Taxa de Sucesso"
+          },
+          "color": "red"
+        },
+        {
+          "text": {
+            "en": "Free: 70%",
+            "pt": "Free: 70%"
+          },
+          "color": "green"
+        },
+        {
+          "text": {
+            "en": "VIP Gold: 100%",
+            "pt": "VIP Gold: 100%"
+          },
+          "color": "green"
+        },
+        {
+          "text": {
+            "en": "Can be used on",
+            "pt": "Pode ser utilizada em"
+          },
+          "color": "violet"
+        },
+        {
+          "text": {
+            "en": "Shields and Weapons",
+            "pt": "Shields e Armas"
+          },
+          "color": "violet"
+        },
+        {
+          "text": {
+            "en": "On failure the item is never lost",
+            "pt": "Caso de falha não há risco da perda do Item"
+          },
+          "color": "green"
+        },
+        {
+          "text": "@numberOfItems",
+          "when": [
+            "durability"
+          ]
+        }
+      ],
+      "nameLines": [
+        {
+          "color": "red"
+        }
+      ],
+      "groundLabels": [
+        {
+          "style": "jewel"
+        }
+      ],
+      "width": 1,
+      "height": 1,
+      "level": 0,
+      "sellValue": 0,
+      "repairable": false
+    },
+    {
+      "number": 204,
+      "name": {
+        "en": "Jewel of Full",
+        "pt": "Jewel of Full"
+      },
+      "tags": [
+        "jewel",
+        "valuable"
+      ],
+      "description": [
+        {
+          "text": {
+            "en": "Enhancement Jewel",
+            "pt": "Jóia de Aprimoramento"
+          },
+          "color": "white"
+        },
+        {
+          "text": {
+            "en": "This jewel makes any item Full!",
+            "pt": "Esta Jewel deixa qualquer item Full!"
+          },
+          "color": "red"
+        },
+        {
+          "text": {
+            "en": "Success Rate",
+            "pt": "Taxa de Sucesso"
+          },
+          "color": "red"
+        },
+        {
+          "text": {
+            "en": "Free: 70%",
+            "pt": "Free: 70%"
+          },
+          "color": "green"
+        },
+        {
+          "text": {
+            "en": "VIP Gold: 100%",
+            "pt": "VIP Gold: 100%"
+          },
+          "color": "green"
+        },
+        {
+          "text": {
+            "en": "Can be used on",
+            "pt": "Pode ser utilizada em"
+          },
+          "color": "violet"
+        },
+        {
+          "text": {
+            "en": "Shields, Weapons, Sets, Wings and Capes",
+            "pt": "Shields, Armas, Sets, Wings e Capes"
+          },
+          "color": "violet"
+        },
+        {
+          "text": {
+            "en": "On failure the item is never lost",
+            "pt": "Caso de falha não há risco da perda do Item"
+          },
+          "color": "green"
+        },
+        {
+          "text": "@numberOfItems",
+          "when": [
+            "durability"
+          ]
+        }
+      ],
+      "nameLines": [
+        {
+          "color": "red"
+        }
+      ],
+      "groundLabels": [
+        {
+          "style": "jewel"
+        }
+      ],
+      "width": 1,
+      "height": 1,
+      "level": 0,
+      "sellValue": 0,
+      "repairable": false
+    },
+    {
+      "number": 205,
+      "name": {
+        "en": "Jewel of Visual",
+        "pt": "Jewel of Visual"
+      },
+      "tags": [
+        "jewel",
+        "valuable"
+      ],
+      "description": [
+        {
+          "text": {
+            "en": "Enhancement Jewel",
+            "pt": "Jóia de Aprimoramento"
+          },
+          "color": "white"
+        },
+        {
+          "text": {
+            "en": "This jewel makes any item VISUAL!",
+            "pt": "Esta Jewel deixa qualquer item VISUAL!"
+          },
+          "color": "red"
+        },
+        {
+          "text": {
+            "en": "Success Rate",
+            "pt": "Taxa de Sucesso"
+          },
+          "color": "red"
+        },
+        {
+          "text": {
+            "en": "Free: 70%",
+            "pt": "Free: 70%"
+          },
+          "color": "green"
+        },
+        {
+          "text": {
+            "en": "VIP Gold: 100%",
+            "pt": "VIP Gold: 100%"
+          },
+          "color": "green"
+        },
+        {
+          "text": {
+            "en": "Can be used on",
+            "pt": "Pode ser utilizada em"
+          },
+          "color": "violet"
+        },
+        {
+          "text": {
+            "en": "Shields, Weapons, Sets, Wings, Capes and Pets",
+            "pt": "Shields, Armas, Sets, Wings, Capes e Pets"
+          },
+          "color": "violet"
+        },
+        {
+          "text": {
+            "en": "On failure the item is never lost",
+            "pt": "Caso de falha não há risco da perda do Item"
+          },
+          "color": "green"
+        },
+        {
+          "text": "@numberOfItems",
+          "when": [
+            "durability"
+          ]
+        }
+      ],
+      "nameLines": [
+        {
+          "color": "red"
+        }
+      ],
+      "groundLabels": [
+        {
+          "style": "jewel"
+        }
+      ],
+      "width": 1,
+      "height": 1,
+      "level": 0,
+      "sellValue": 0,
+      "repairable": false
     }
   ]
 }

@@ -1919,6 +1919,90 @@
         "rotation": [90, 0, -45],
         "scale": 0.2
       }
+    },
+    {
+      "number": 200,
+      "model": "jewelOfBless",
+      "inventory": {
+        "anchor": [
+          0.5,
+          0.95
+        ],
+        "scale": 0.0035
+      },
+      "glow": {
+        "level": 13
+      }
+    },
+    {
+      "number": 201,
+      "model": "jewelOfLife",
+      "inventory": {
+        "anchor": [
+          0.5,
+          0.95
+        ],
+        "scale": 0.0035
+      },
+      "glow": {
+        "level": 13
+      }
+    },
+    {
+      "number": 202,
+      "model": "jewelOfCreation",
+      "inventory": {
+        "anchor": [
+          0.5,
+          0.95
+        ],
+        "scale": 0.0035
+      },
+      "glow": {
+        "level": 13
+      }
+    },
+    {
+      "number": 203,
+      "model": "jewelOfSoul",
+      "inventory": {
+        "anchor": [
+          0.5,
+          0.95
+        ],
+        "scale": 0.0035
+      },
+      "glow": {
+        "level": 13
+      }
+    },
+    {
+      "number": 204,
+      "model": "jewelOfChaos",
+      "inventory": {
+        "anchor": [
+          0.5,
+          0.95
+        ],
+        "scale": 0.0035
+      },
+      "glow": {
+        "level": 13
+      }
+    },
+    {
+      "number": 205,
+      "model": "jewelOfGuardian",
+      "inventory": {
+        "anchor": [
+          0.5,
+          0.95
+        ],
+        "scale": 0.0035
+      },
+      "glow": {
+        "level": 13
+      }
     }
   ]
 }
